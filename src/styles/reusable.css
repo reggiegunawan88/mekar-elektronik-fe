@@ -1,0 +1,14 @@
+/* reusable styles */
+
+.bg-gradient-blue {
+  @apply bg-gradient-to-b from-white to-teal-300;
+}
+.input-form {
+  @apply p-4 w-full h-10 rounded border border-dark-4 outline-none;
+}
+.btn-primary {
+  @apply py-3 font-bold text-white bg-main-primary rounded-md outline-none;
+}
+.btn-dashboard {
+  @apply flex bg-sky-300 rounded-md p-3 h-40 w-40 justify-center items-center cursor-pointer hover:bg-sky-400 text-black;
+}

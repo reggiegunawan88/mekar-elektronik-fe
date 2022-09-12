@@ -1,10 +1,18 @@
+import Login from '@/components/Login';
 import Default from '@/layout/Default';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const Index = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-2xl text-red-500">Toko Mekar Elektronik</h1>
+    <div className="flex justify-center items-center h-full">
+      <div className="flex flex-col">
+        <div className="flex flex-col items-center">
+          <span className="text-2xl">Toko Mekar Elektronik</span>
+          <Image alt="logo" src="/assets/logo.png" width={300} height={300} layout="fixed" objectFit="contain" />
+        </div>
+        <Login />
+      </div>
     </div>
   );
 };
