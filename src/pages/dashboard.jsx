@@ -1,4 +1,5 @@
 import Default from '@/layout/Default';
+import Link from 'next/link';
 import React from 'react';
 
 const Dashboard = () => {
@@ -7,9 +8,11 @@ const Dashboard = () => {
       <div className="flex flex-col gap-y-5 text-center">
         <span className="text-3xl">Menu Utama</span>
         <div className="grid grid-cols-2 gap-2">
-          <button className="btn-dashboard">
-            <span>Daftar Barang</span>
-          </button>
+          <Link passHref href="/inventory">
+            <button className="btn-dashboard">
+              <span>Daftar Barang</span>
+            </button>
+          </Link>
           <button className="btn-dashboard">
             <span>Pembelian</span>
           </button>
