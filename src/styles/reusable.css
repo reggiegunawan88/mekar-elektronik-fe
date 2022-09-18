@@ -7,11 +7,11 @@
   @apply p-4 w-full h-10 rounded border border-dark-4 outline-none;
 }
 .btn-dashboard {
-  @apply py-3 font-bold text-white bg-main-primary rounded-md outline-none;
+  @apply flex bg-sky-300 rounded-md p-3 h-40 w-40 justify-center items-center cursor-pointer hover:bg-sky-400 text-black;
 }
 .btn-primary {
-  @apply flex bg-blue-500 rounded-md p-2 text-sm h-fit w-fit justify-center items-center cursor-pointer text-white;
+  @apply flex bg-blue-500 rounded-md p-2 text-sm h-fit justify-center items-center cursor-pointer text-white;
 }
 .btn-secondary {
-  @apply flex bg-green-500 rounded-md p-2 text-sm h-fit w-fit justify-center items-center cursor-pointer text-white;
+  @apply flex bg-green-500 rounded-md p-2 text-sm h-fit justify-center items-center cursor-pointer text-white;
 }
