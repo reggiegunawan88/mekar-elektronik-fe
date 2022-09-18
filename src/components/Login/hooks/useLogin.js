@@ -15,6 +15,12 @@ const useLogin = () => {
     setPassword(e.target.value);
   };
 
+  const keypressLogin = e => {
+    if (e.which === 13) {
+      login();
+    }
+  };
+
   const login = () => {
     setError(false);
     if (username === 'admin' && password === 'admin') {
@@ -28,7 +34,8 @@ const useLogin = () => {
     error,
     handleInputUsername,
     handleInputPassword,
-    login
+    login,
+    keypressLogin
   };
 };
 
