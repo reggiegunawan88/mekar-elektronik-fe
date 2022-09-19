@@ -15,3 +15,6 @@
 .btn-secondary {
   @apply flex bg-green-500 rounded-md p-2 text-sm h-fit justify-center items-center cursor-pointer text-white;
 }
+.input-item {
+  @apply px-2 py-1 h-fit outline-none border border-gray-400 rounded;
+}
