@@ -1,6 +1,5 @@
 import Login from '@/components/Login';
 import Default from '@/layout/Default';
-import Head from 'next/head';
 import Image from 'next/image';
 
 const Index = () => {
